@@ -1,19 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+---
+layout: default
+---
 
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>index</title>
-	<meta name="generator" content="TextMate http://macromates.com/">
-	<meta name="author" content="Mads Lundeland">
-	<!-- Date: 2014-01-12 -->
-</head>
-<body>
+<div class="home">
 
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js">
-	{"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0Atv9KS78-jFBdExkdU1scldKdnhmY3VFUzZwR1llNmc&transpose=0&headers=1&range=A1%3AAV14&gid=3&pub=1","options":{"titleTextStyle":{"fontSize":16},"vAxes":[{"useFormatFromData":true,"minValue":null,"viewWindow":{"max":null,"min":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"max":null,"min":null},"maxValue":null}],"title":"Chart title","booleanRole":"certainty","sortColumn":1,"height":943,"showRowNumber":true,"animation":{"duration":0},"legend":"right","width":1750,"sortAscending":false,"focusTarget":"series","hAxis":{"title":"Horizontal axis title","useFormatFromData":true,"minValue":null,"viewWindow":{"max":null,"min":null},"maxValue":null},"tooltip":{"trigger":"none"}},"state":{},"view":{},"isDefaultVisualization":false,"chartType":"Table","chartName":"Chart2"}
-	</script>lundeland@gmail.comlundeland@gmail.com
-	
-</body>
-</html>
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
