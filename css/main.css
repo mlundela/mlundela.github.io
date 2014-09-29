@@ -25,10 +25,11 @@ h2 {
 #header {
     font-weight: 300;
     color: #f2f2f2;
+    text-transform: uppercase;
 }
 
 #profile-img {
-    width: 100px;
+    width: 110px;
     float: right;
 }
 
