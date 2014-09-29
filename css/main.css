@@ -1,0 +1,60 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 26.64px;
+    font-size: 18px;
+    /*font-size: 1.8rem;*/
+    color: #555;
+}
+
+a, a:hover, a:visited {
+    color: #ff6167;
+    text-decoration: underline;
+}
+
+#header {
+    padding: 50px 0;
+}
+
+h2 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #444;
+    font-size: 1.2em;
+}
+
+#header {
+    font-weight: 300;
+    color: #f2f2f2;
+}
+
+#profile-img {
+    width: 100px;
+    float: right;
+}
+
+.content img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #ff6167;
+}
+
+.date {
+    color: #b8b8b8;
+}
+
+.breadcrumb span {
+    color: #555;
+}
+.breadcrumb {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}

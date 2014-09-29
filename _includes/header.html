@@ -1,3 +1,17 @@
-<div class="page-header">
-    <h1>Valderrama <small>Subtext for header</small></h1>
+<div id="header" class="row">
+    <div class="col-xs-8">
+
+        <h2>Mads André Lundeland</h2>
+
+        <div class="breadcrumb">
+            {% if page.title != 'blog' %} <a href="/">blog</a> {% else %} <span>blog</span> {% endif %} |
+            {% if page.title != 'portfolio' %} <a href="/portfolio">portfolio</a> {% else %} <span>portfolio</span> {% endif %} |
+            {% if page.title != 'about' %} <a href="/about">about</a> {% else %} <span>about</span> {% endif %}
+        </div>
+
+    </div>
+
+    <div class="col-xs-4">
+        <img id="profile-img" class="img-circle" src="/assets/mads-bw.jpg">
+    </div>
 </div>

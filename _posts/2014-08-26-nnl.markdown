@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "NordicNeuroLab website"
+date:   2014-08-26 15:24:04
+tags: Jekyll AmazonS3 bootstrap
+categories: portfolio
+---
+
+![demo](/assets/nnl.jpg "Product page")
+
+The customer [NordicNeuroLab][nnl] wanted a complete remake of their web site, which would be easy to update with news
+articles and product details.
+
+NordicNeuroLab's product catalog includes state of the art software and hardware products for the fMRI market, and for them
+it was important that the web site reflected their company values, most importantly their focus on _innovation_ and _high quality_.
+
+## Wordpress vs. Jekyll
+I had heard so many good things about [Jekyll][jekyll], and so I managed to convince the customer to chose it as the
+development platform. It didn't exactly make my case any worse, that they had som bad experience with Wordpress in the
+past. Thus, I set out to learn Jekyll!
+
+## Amazon S3
+The nice thing about static sites is of course that they can be deployed almost anywhere. We chose Amazon S3 as our hosting
+platform and used the _s3_website_ gem to push new releases.
+
+The project was delivered on time (3 weeks).
+
+
+[nnl]:    http://www.nordicneurolab.com
+[jekyll]:    http://www.jekyllrb.com

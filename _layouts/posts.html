@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+    {% if post.categories contains page.title %}
+        <p class="date">{{post.date | date: "%b %-d, %Y" }}</p>
+        <h1>{{post.title}}</h1>
+
+        {{post.content}}
+
+        <br/>
+        <br/>
+        <hr/>
+
+    {% endif %}
+{% endfor %}
