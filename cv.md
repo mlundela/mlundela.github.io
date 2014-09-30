@@ -38,6 +38,19 @@ Tools used: C++
 <br/>
 
 
+## Certifications
+
+***
+
+### Functional Programming Principles in Scala (Coursera)
+
+### Principles of Reactive Programming (Coursera)
+
+
+<br/>
+<br/>
+
+
 ## Education
 
 ***
