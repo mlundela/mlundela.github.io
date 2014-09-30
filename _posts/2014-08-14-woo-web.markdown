@@ -9,7 +9,7 @@ categories: portfolio
 ![demo](/assets/woo-web.jpg "Woo")
 
 [Woo][woo] is an app I have been working on for some time, and as the release is closing in, me and my partner
-decided we needed to find early adopters for our new and exciting product.
+decided we needed to find early adopters for our new and exciting product, so we created this landing page.
 
 We were quite happy with the result :)
 
