@@ -1,9 +1,10 @@
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 26.64px;
+    font-weight: 100;
     font-size: 18px;
     /*font-size: 1.8rem;*/
-    color: #555;
+    color: #666;
     padding-bottom: 200px;
 }
 
