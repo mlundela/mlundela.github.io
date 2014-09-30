@@ -40,6 +40,10 @@ a, a:hover, a:visited {
     border-radius: 55px;
 }
 
+.twitter {
+    width: 32px;
+}
+
 .content img {
     width: 100%;
 }
