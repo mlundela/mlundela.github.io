@@ -8,6 +8,8 @@ categories: blog
 This site was created with the excellent static html generator tool [Jekyll][jekyll], and hosted on Github
 thanx to their integration with Jekyll.
 
+View on [github](https://github.com/mlundela/mlundela.github.io).
+
 In this post I will explain how I decided to organize my Jekyll project, in order to present my portfolio and blog posts,
 while keeping the project structure as simple as possible.
 
