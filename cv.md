@@ -16,12 +16,12 @@ permalink: /cv/
 ### Gode Vibrasjoner AS (2013 - )
 One of two founders, and lead developer of the social networking app [Woo][woo].
 
-Developing backend system using the Play Framework, and mobile apps for iOS and Android in Cordova, AngularJS and Ionic Framework.
+Developing backend system using Play Framework and Scala, and mobile apps for iOS and Android in Cordova, AngularJS and Ionic Framework.
 
 ### Freelancer (2013 - )
 Created [NordicNeuroLab's][nnl] new websites.
 
-Tools used: Jekyll, AmazonS3, Twitter Bootstrap, SASS.
+Tools used: Jekyll, Amazon S3, Twitter Bootstrap, SASS.
 
 ### Webstep (2010 - 2013)
 Senior Consultant at [Webstep][webstep], working for a customer in Bergen that specialized on property data and web clients
