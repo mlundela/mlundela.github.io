@@ -1,18 +1,17 @@
-<div id="header" class="row">
-    <div class="col-xs-8">
+<div id="header">
 
+    <img id="profile-img" class="img-circle" src="/assets/mads-bw.jpg">
+
+    <div class="title">
         <h2>Mads André Lundeland</h2>
 
         <div class="breadcrumb">
             {% if page.title != 'blog' %} <a href="/">blog</a> {% else %} <span>blog</span> {% endif %} |
-            {% if page.title != 'portfolio' %} <a href="/portfolio">portfolio</a> {% else %} <span>portfolio</span> {% endif %} |
+            {% if page.title != 'portfolio' %} <a href="/portfolio">portfolio</a> {% else %} <span>portfolio</span>{% endif %} |
             {% if page.title != 'cv' %} <a href="/cv">cv</a> {% else %} <span>cv</span> {% endif %} |
             {% if page.title != 'contact' %} <a href="/contact">hire me</a> {% else %} <span>hire me</span> {% endif %}
         </div>
-
     </div>
-
-    <div class="col-xs-4">
-        <img id="profile-img" class="img-circle" src="/assets/mads-bw.jpg">
-    </div>
+    <br style="clear: both;"/>
 </div>
+

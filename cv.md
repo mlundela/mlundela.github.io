@@ -21,7 +21,7 @@ Developing backend system using the Play Framework, and mobile apps for iOS and 
 ### Freelancer (2013 - )
 Created [NordicNeuroLab's][nnl] new websites.
 
-Tools used: Jekyll, AmazonS3, Twitter Bootstrap.
+Tools used: Jekyll, AmazonS3, Twitter Bootstrap, SASS.
 
 ### Webstep (2010 - 2013)
 Senior Consultant at [Webstep][webstep], working for a customer in Bergen that specialized on property data and web clients
@@ -34,7 +34,8 @@ Software developer at NordicNeuroLab.
 
 Tools used: C++
 
-
+<br/>
+<br/>
 
 
 ## Education
