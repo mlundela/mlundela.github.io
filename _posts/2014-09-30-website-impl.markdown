@@ -67,6 +67,4 @@ The layout (__layouts/posts.html_) is where the magic happens:
     {% endraw %}
 
 
-
-
 [jekyll]:    http://www.jekyllrb.com
