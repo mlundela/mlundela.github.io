@@ -41,7 +41,8 @@ a, a:hover, a:visited {
 }
 
 .twitter {
-    width: 32px;
+    width: 28px;
+    margin-left: 2px;
 }
 
 .content img {
@@ -80,6 +81,7 @@ hr {
 
 .date {
     color: #b8b8b8;
+    font-size: 0.9em;
 }
 
 .breadcrumb span {
