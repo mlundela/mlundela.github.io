@@ -25,6 +25,7 @@ platform and used the _s3_website_ gem to push new releases.
 
 The project was delivered on time (3 weeks).
 
+<iframe src="//player.vimeo.com/video/100988309" width="240" height="135" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 [nnl]:    http://www.nordicneurolab.com
 [jekyll]:    http://www.jekyllrb.com
